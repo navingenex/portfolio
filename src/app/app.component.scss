@@ -1,0 +1,10 @@
+.jumbotron{
+    background: var(--background-dark);
+
+        color: var(--text-color);
+        .btn-primary{
+            background: var(--background-light);
+
+        color: var(--text-color);
+        }
+}
