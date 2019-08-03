@@ -1,5 +1,5 @@
 .jumbotron{
-    background: var(--background-dark);
+    background: var(--background-secondary);
 
         color: var(--text-color);
         .btn-primary{
@@ -7,4 +7,15 @@
 
         color: var(--text-color);
         }
+}
+.navbar{
+    background: var(--background-light);
+    color: var(--text-color);
+    ul{
+        li{
+            a{
+                color: var(--text-color);
+            }
+        }
+    }
 }

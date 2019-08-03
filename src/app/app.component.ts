@@ -17,7 +17,13 @@ export class AppComponent implements OnInit{
 
 
 
-
+  toggleTheme(){
+    if(this.themeService.isDarkTheme()){
+      this.themeService.setLightTheme();
+    }else{
+      this.themeService.setDarkTheme();
+    }
+  }
   lightTheme() {
       this.themeService.setLightTheme();
   }
